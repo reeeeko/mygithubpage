@@ -2,9 +2,9 @@
 Place a 'servers.txt' file on your desktop with a list of the remote target servers. No delimiters are needed, just list them such as:
 
 - ProdServer1
-- ProdServer2
+- ProdServer2  
 
-**IF YOU ARE SENDING COMMANDS TO A REMOTE MACHINE IN A DIFFERENT DOMAIN, YOU WILL NEED TO CREATE TRUST BETWEEN THE TWO, WITH THE FOLLOWING COMMANDS:**
+##### **IF YOU ARE SENDING COMMANDS TO A REMOTE MACHINE IN A DIFFERENT DOMAIN, YOU WILL NEED TO CREATE TRUST BETWEEN THE TWO:**
  
 On both remote machine/server, run Powershell as administrator, and enter the following command:
   
